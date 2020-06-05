@@ -1,0 +1,107 @@
+.head1{
+    /* background-color: #D2B48C !important; */
+    background-color: #9932CC !important;
+}
+
+.social{
+    margin-right: 5px;
+}
+
+.navbar{
+    /* background-color: #9932CC !important; */
+    background-color: #F6F6F6 !important;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.our_course{
+    background-color: #9932CC !important;
+}
+
+.our_course h1{
+    color: white;
+}
+
+.footer{
+    color: white;
+    background-color: #9932CC !important;
+    padding: 10px;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
